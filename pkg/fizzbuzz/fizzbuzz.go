@@ -3,7 +3,7 @@ package fizzbuzz
 import "strconv"
 
 // UpToLength returns a list of strings with the
-// fizz-buzz result for the sequence of digits from 1 to length
+// fizz-buzz result for the sequence of digits from 1 to length.
 func UpToLength(length int) []string {
 	out := []string{}
 	for i := 1; i <= length; i++ {
