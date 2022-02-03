@@ -16,7 +16,7 @@ func UpToLength(length int) []string {
 
 func digitToFizzBuzz(input int) string {
 	if input%3 == 0 && input%5 == 0 {
-		return "FIZZBUZZ"
+		return "FIZZBUZZ_2"
 	} else if input%3 == 0 {
 		return "FIZZ"
 	} else if input%5 == 0 {
